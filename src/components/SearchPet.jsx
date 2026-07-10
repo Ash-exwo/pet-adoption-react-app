@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const SearchPet = () => {
   return (
@@ -7,9 +8,9 @@ const SearchPet = () => {
         background: "linear-gradient(to right, #FDF2F8, #EEF2FF)",
         minHeight: "100vh",
       }}
-      
-    >
 
+    >
+        <NavBar/>
       <div className="container py-5">
         <div className="row justify-content-center">
 
@@ -24,7 +25,7 @@ const SearchPet = () => {
                 <div className="text-center mb-4">
                   <h2
                     className="fw-bold"
-                    style={{ color: "#7C3AED" }}
+                    style={{ color: "#C5B3D3" }}
                   >
                     Search Pet
                   </h2>
@@ -51,7 +52,7 @@ const SearchPet = () => {
                     <button
                       className="btn px-5 py-2 fw-bold"
                       style={{
-                        backgroundColor: "#7C3AED",
+                        backgroundColor: "#C5B3D3",
                         color: "#fff",
                         border: "none",
                         borderRadius: "12px",
