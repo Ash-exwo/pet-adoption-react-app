@@ -84,7 +84,7 @@ const ViewPets = () => {
                                             <strong>Gender :</strong> {value.gender}
                                             <br />
 
-                                            <strong>Adoption Fee :</strong> {value.fee}
+                                            <strong>Adoption Fee :</strong> {value.adoptionFee}
 
                                         </p>
 
